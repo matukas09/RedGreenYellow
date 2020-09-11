@@ -1,0 +1,39 @@
+body {
+background-color: rgb(119, 0, 255);
+}
+
+.mainDiv {
+background-color: #551a8b;
+height: 620px;
+width: 620px;
+margin: 0 auto;
+}
+.mainDiv > div {
+margin: 0 auto;
+border-radius: 50%;
+display: inline-block;
+color: white;
+}
+
+p {
+    padding: 50px;
+}
+
+.red {
+    height: 200px;
+    width: 200px;
+    background-color: red;
+}
+
+.yellow {
+    height: 200px;
+    width: 200px;
+    background-color: yellow;
+    /*visibility hidden;    */
+    /*display: none; removes it from the document   */
+}
+.green {
+    height: 200px;
+    width: 200px;
+    background-color: green;
+}
